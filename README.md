@@ -29,14 +29,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead.
 
 1. What is the DOM?
+API that creates a model of the window HTML which can then be manipulated with javascript. It serves as an intermediatry between the window object and the javascript one would like to use to manipulate stuff on the window object.
 
 2. What is an event?
+An event is a specific action that, most often, is triggered by the user
 
 3. What is an event listener?
+It is something that "listens" for the specific action described in the answer to question 2. It's added via the .addEventListener method
 
 4. Why would we convert a NodeList into an Array?
+NodeList doesn't have access to array methods. It's array-like but not an array
 
 5. What is a component?
+A component is the intertwined html/css/js that is used to make objects on the window smarter.
+
 
 ### Git Set up
 
