@@ -38,7 +38,7 @@ function Header() {
 
 }
 
-let headerContainer = document.querySelector('div.header-container');
+let headerContainer = document.querySelector('.header-container');
 
 let menu = new Header();
 
